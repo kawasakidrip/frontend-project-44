@@ -3,4 +3,5 @@
 /* eslint-disable import/extensions */
 
 import inputName from '../src/cli.js';
+
 inputName();
