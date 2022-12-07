@@ -1,7 +1,6 @@
 import readlineSync from 'readline-sync';
-import game from '../bin/brain-calc.js'
 
-const logics = (description, gamedata) => {
+const logics = (description, game) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
