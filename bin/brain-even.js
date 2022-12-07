@@ -9,17 +9,14 @@ const getRandom = (min, max) => {
 const evenGame = () => {
   const name = inputName();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  let i = 0;
-  while (i < 3) {
+  for (let i = 0; i < 3; i += 1) {
     const random = getRandom(1, 100);
     console.log(`Question: ${random}`);
     const answer = readlineSync.question('Your answer: ');
     if (random % 2 === 0 && answer === 'yes') {
       console.log('Correct!');
-      i += 1;
     } else if (random % 2 !== 0 && answer === 'no') {
       console.log('Correct!');
-      i += 1;
     } else if (random % 2 === 0 && answer === 'no') {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${name}!`);
       break;
@@ -30,9 +27,10 @@ const evenGame = () => {
       console.log('You need type "yes" or "no"');
       break;
     }
-  }
-  if (i === 3) {
-    console.log(`Congratulations, ${name}`);
+    if (i === 2) {
+      console.log(`Congratulations, ${name}`);
+      break;
+    }
   }
 };
 evenGame();
