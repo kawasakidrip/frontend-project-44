@@ -1,5 +1,5 @@
 import logics from '../index.js';
-import { getRandom, getRandomOperator } from '../function.js';
+import { getRandom, getRandomOperator } from '../src/function.js';
 
 const correct = (number1, number2, oper) => {
   let result = null;

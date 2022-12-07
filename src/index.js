@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import game from '../frontend-project-44/bin/brain-calc.js'
+import game from '../bin/brain-calc.js'
 
 const logics = (description, gamedata) => {
   console.log('Welcome to the Brain Games!');
