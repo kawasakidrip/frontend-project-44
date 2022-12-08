@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 /* eslint-disable no-console */
 /* eslint-disable import/extensions */
 
+=======
+>>>>>>> b10fc9bd92aff599dbc8f559beefa26a00b48729
 import logics from '../src/index.js';
 import { getRandom, getRandomOperator } from '../src/function.js';
 
