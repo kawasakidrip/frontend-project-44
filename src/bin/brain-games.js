@@ -2,6 +2,6 @@
 /* eslint-disable no-console */
 /* eslint-disable import/extensions */
 
-import inputName from '../src/cli.js';
+import inputName from '../cli.js';
 
 inputName();
