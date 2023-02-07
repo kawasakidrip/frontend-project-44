@@ -6,7 +6,6 @@
 # ![Game "Greatest common divisor"](/images/gcd.jpg) Game "Greatest common divisor"
 # ![Game "Arithmetical progression"](/images/progression.jpg) Game "Arithmetical progression"
 # ![Game "Is number prime"](/images/prime.jpg) Game "Is number prime"
-
 This is my first project.
 To start the game, clone the repository and write a command in the console, for example:
 `node brain-even`
