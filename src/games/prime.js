@@ -2,8 +2,8 @@
 /* eslint-disable no-console */
 /* eslint-disable import/extensions */
 
-import { getRandom } from '../src/function.js';
-import logics from '../src/index.js';
+import { getRandom } from '../function.js';
+import logics from '../index.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -27,5 +27,5 @@ const game = () => {
 };
 
 const start = () => logics(description, game);
-start();
+
 export default start;

@@ -2,8 +2,8 @@
 /* eslint-disable no-console */
 /* eslint-disable import/extensions */
 
-import { getRandom } from '../src/function.js';
-import logics from '../src/index.js';
+import { getRandom } from '../function.js';
+import logics from '../index.js';
 
 const description = 'What number is missing in the progression?';
 
@@ -29,5 +29,5 @@ const game = () => {
 };
 
 const start = () => logics(description, game);
-start();
+
 export default start;

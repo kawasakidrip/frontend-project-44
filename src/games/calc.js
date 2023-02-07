@@ -2,8 +2,8 @@
 /* eslint-disable no-console */
 /* eslint-disable import/extensions */
 
-import logics from '../src/index.js';
-import { getRandom, getRandomOperator } from '../src/function.js';
+import logics from '../index.js';
+import { getRandom, getRandomOperator } from '../function.js';
 
 const correct = (number1, number2, oper) => {
   let result = null;
@@ -32,5 +32,5 @@ const game = () => {
   return [question, answer];
 };
 const start = () => logics(description, game);
-start();
+
 export default start;

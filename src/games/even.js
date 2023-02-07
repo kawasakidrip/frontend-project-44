@@ -2,8 +2,8 @@
 /* eslint-disable no-console */
 /* eslint-disable import/extensions */
 
-import { getRandom } from '../src/function.js';
-import logics from '../src/index.js';
+import { getRandom } from '../function.js';
+import logics from '../index.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 const evenCheck = (number) => (number % 2 === 0 ? 'yes' : 'no');
@@ -16,5 +16,5 @@ const game = () => {
 };
 
 const start = () => logics(description, game);
-start();
+
 export default start;
