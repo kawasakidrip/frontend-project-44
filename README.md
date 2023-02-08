@@ -18,4 +18,4 @@
 
 `npm link`
 # To start any game write, for example:
-#`node brain-even`
+`node brain-even`
