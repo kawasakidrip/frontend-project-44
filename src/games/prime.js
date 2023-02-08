@@ -3,11 +3,11 @@
 /* eslint-disable import/extensions */
 
 import { getRandom } from '../function.js';
-import logics from '../index.js';
+import startGame from '../index.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const primeCheck = (number) => {
+const checkPrime = (number) => {
   if (number < 2) {
     return false;
   }
@@ -21,11 +21,11 @@ const primeCheck = (number) => {
 
 const game = () => {
   const question = getRandom(1, 100);
-  const answer = primeCheck(question) ? 'yes' : 'no';
+  const answer = checkPrime(question) ? 'yes' : 'no';
 
   return [question, answer];
 };
 
-const start = () => logics(description, game);
+const start = () => startGame(description, game);
 
 export default start;

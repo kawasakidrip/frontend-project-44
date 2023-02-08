@@ -3,7 +3,7 @@
 /* eslint-disable import/extensions */
 
 import { getRandom } from '../function.js';
-import logics from '../index.js';
+import startGame from '../index.js';
 
 const getGcd = (number1, number2) => (!number2 ? number1 : getGcd(number2, number1 % number2));
 
@@ -18,6 +18,6 @@ const game = () => {
   return [question, answer];
 };
 
-const start = () => logics(description, game);
+const start = () => startGame(description, game);
 
 export default start;

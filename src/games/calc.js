@@ -2,10 +2,10 @@
 /* eslint-disable no-console */
 /* eslint-disable import/extensions */
 
-import logics from '../index.js';
+import startGame from '../index.js';
 import { getRandom, getRandomOperator } from '../function.js';
 
-const correct = (number1, number2, oper) => {
+const calculate = (number1, number2, oper) => {
   let result = null;
   switch (oper) {
     case '+':
@@ -26,11 +26,11 @@ const description = 'What is the result of the expression?';
 const game = () => {
   const number1 = getRandom(1, 20);
   const number2 = getRandom(1, 20);
-  const oper = getRandomOperator();
-  const question = `${number1} ${oper} ${number2}`;
-  const answer = correct(number1, number2, oper).toString();
+  const operator = getRandomOperator();
+  const question = `${number1} ${operator} ${number2}`;
+  const answer = calculate(number1, number2, operator).toString();
   return [question, answer];
 };
-const start = () => logics(description, game);
+const start = () => startGame(description, game);
 
 export default start;
