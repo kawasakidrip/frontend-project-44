@@ -7,11 +7,15 @@
 # ![Game "Arithmetical progression"](/images/progression.jpg) Game "Arithmetical progression"
 # ![Game "Is number prime"](/images/prime.jpg) Game "Is number prime"
 
-# This is my first project.
+
 # Before you start playing write these commands:
-#`git clone https://github.com/kawasakidrip/frontend-project-44.git`
-#`cd frontend-project-44`
-#`make install`
-#`npm link`
+`git clone https://github.com/kawasakidrip/frontend-project-44.git`
+
+`cd frontend-project-44`
+
+
+`make install`
+
+`npm link`
 # To start any game write, for example:
 #`node brain-even`
