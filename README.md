@@ -8,5 +8,10 @@
 # ![Game "Is number prime"](/images/prime.jpg) Game "Is number prime"
 
 This is my first project.
-To start the game, clone the repository and write a command in the console, for example:
+Before you start playing write these commands:
+`git clone https://github.com/kawasakidrip/frontend-project-44.git`
+`cd frontend-project-44`
+`make install`
+`npm link`
+To start any game write, for example:
 `node brain-even`
